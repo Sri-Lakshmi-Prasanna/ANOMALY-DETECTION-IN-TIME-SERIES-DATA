@@ -1,13 +1,7 @@
 # ANOMALY-DETECTION-IN-TIME-SERIES-DATA
 
-This project's goal is to find irregularities in a time-series dataset. Anomalies in the
-dataset, which was gathered from a city infrastructure system, correspond to
-cyberattacks. We need to create an algorithm that can learn some nominal patterns
-and identify deviations from the nominal patterns (i.e., anomalous instances) in the
-testing dataset.
-The training dataset only contains nominal instances; thus, your training dataset is
-entirely made up of nominal examples. Both nominal and abnormal cases are
-present in the testing dataset. The test labels with a value of 0 or 1 denote nominal
-or anomalous data instances, respectively. You do not require a training labels
-document because the entire training dataset is nominal (i.e., all training labels are
-zero).
+Developed an algorithm to detect anomalies in a time-series dataset sourced from a city infrastructure system, where anomalies indicated cyberattacks.
+Utilized a training dataset containing only nominal instances and analyzed a testing dataset with both nominal and anomalous cases.
+Identified deviations from learned nominal patterns to detect anomalies, using test labels to indicate nominal (0) or anomalous (1) instances.
+Employed advanced Machine Learning models and techniques such as KNN Imputer, DecisionTreeClassifier, OneClassSVM, and Isolation Forest to ensure precision and accuracy in anomaly detection.
+Applied dimensionality reduction techniques like PCA and FastICA to enhance model performance.
